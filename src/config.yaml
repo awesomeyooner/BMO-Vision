@@ -1,0 +1,7 @@
+path: C:/Users/aweso/Documents/BoeingVision/resources
+
+train: images/train
+val: images/train
+
+names:
+  0: bmo
