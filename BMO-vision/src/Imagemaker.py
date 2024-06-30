@@ -7,10 +7,14 @@ labels = ['bmo']
 
 #workpath for imagespip 
 path = os.path.join('resources', 'images', 'train')
+label_path = os.path.join('resources', 'labels', 'train')
 
 #create the image path if it doesnt exist already
 if not os.path.exists(path):
     os.makedirs(path)
+
+if not os.path.exists(label_path):
+    os.makedirs(label_path)
 
 
 cap = cv2.VideoCapture(0)
